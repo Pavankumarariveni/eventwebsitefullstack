@@ -1,0 +1,39 @@
+.rec-item-con {
+    background-image: url('https://drive.google.com/thumbnail?id=1zIdmBFhcwr1vMGSNwOLOjKnywjN-HtgD');
+    height: 300px;
+    width: 360px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 12px;
+    /* background-color: #000; */
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    background-position: center;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+.rec-item-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rec-item-name {
+    width: 100px;
+}
+.rec-item-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.rec-item-city {
+    width: 60px;
+}
+.img-sam {
+    height: 50vh;
+    background-size: cover;
+    width: 50vw;
+}

@@ -1,0 +1,42 @@
+.recom-con {
+    padding-left: 30px;
+}
+.recom-head-con {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.recom-head {
+    font-size: 24px;
+}
+.recom-head-logo {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.recom-ul {
+    list-style: none;
+    display: flex;
+    overflow-x:scroll;
+    padding: 0px;
+    white-space: nowrap;
+}
+.recom-ul::-webkit-scrollbar {
+    width: 0;
+    padding-bottom: 0px;
+}
+.loader-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+@media screen and (max-width: 768px) {
+    .recom-con {
+        padding: 0px;
+    }
+    .recom-head {
+        padding-left: 10px;
+    }
+}

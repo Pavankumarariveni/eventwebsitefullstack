@@ -1,0 +1,14 @@
+.location-item-con {
+    display: flex;
+    align-items: center;
+}
+.loc-logo {
+    margin-right: 4px;
+}
+.upcom-item-wd {
+    display: flex;
+    align-items: center;
+}
+.weather {
+    margin-right: 10px;
+}

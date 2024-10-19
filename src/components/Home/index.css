@@ -1,0 +1,36 @@
+.home-con {
+    background-image: url('https://weddingplanner.pt/wp-content/uploads/2023/07/eventos-corp-2.jpg');
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%;
+}
+.home-des {  
+    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 80vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 200px;
+}
+.home-con-head {
+    font-size: 48px;
+}
+@media screen and (max-width: 768px) {
+    .home-des {
+        padding: 10px 30px;
+    }
+    .home-con-head {
+        font-size: 24px;
+    } 
+    .home-con-para {
+        font-size: 14px;
+    }   
+}
